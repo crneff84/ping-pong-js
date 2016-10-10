@@ -3,7 +3,6 @@ var Calculator = require('./../js/pingpong.js').calculatorModule;
 $(document).ready(function() {
   $('#ping-pong-form').submit(function(event) {
     event.preventDefault();
-    debugger;
     var goal = $('#goal').val();
     console.log(goal);
     var simpleCalculator = new Calculator("hot pink");
